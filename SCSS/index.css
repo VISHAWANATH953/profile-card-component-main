@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 85.2%;
+  
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: #19a2ae url("/images/bg-pattern-top.svg") no-repeat left top;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+main {
+  width: 80vw;
+  height: 60vh;
+  text-transform: capitalize;
+  background: #fff url("/images/bg-pattern-card.svg") no-repeat top center;
+  background-size: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+main .ul {
+  color: #969696;
+  font-size: 1.2rem;
+}
+
+main .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding-top: 5rem;
+}
+
+main .card .img__info {
+  -ms-flex-preferred-size: 10rem;
+      flex-basis: 10rem;
+  height: 10rem;
+  margin-top: 4rem;
+  border-radius: 50%;
+  border: 0.39rem solid #fff;
+  overflow: hidden;
+}
+
+main .card .img__info img {
+  width: 100%;
+  height: 100%;
+}
+
+main .card ul {
+  margin-top: 1rem;
+}
+
+main .card ul li {
+  padding: 0.1rem 0;
+}
+
+main .social__info {
+  border-top: 0.01rem solid #969696;
+  margin-top: 1.5rem;
+  background: #fff;
+}
+
+main .social__info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+main .social__info ul li {
+  margin: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    width: 30vw;
+    height: 55vh;
+  }
+  main .img__info {
+    margin-top: 1rem !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */
